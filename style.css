@@ -1,3 +1,48 @@
-form {
+body {
+    background-color: #736c66;
+    color: #F5F5F5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
+
+.container-fluid {
+    background-color: #520000;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: start;
+    width: 400px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+h1 {
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #c9c9c9;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7f6d26;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+

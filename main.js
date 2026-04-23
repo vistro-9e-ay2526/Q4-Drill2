@@ -1,6 +1,7 @@
 function showHeatIndex() {
-    let temp = document.getElementById("temperature").value;
-    let humidity = document.getElementById("humidity").value;
+    
+    let temp = document.getElementById("inputDegree").value;
+    let humidity = document.getElementById("inputHumidity").value;
 
     let heatIndex = "";
     let status = "";
@@ -32,5 +33,5 @@ function showHeatIndex() {
             status = "Out of range";
     }
 
-    alert("Heat Index: " + heatIndex + "\nStatus" + status);
+    alert("Heat Index: " + heatIndex + "\nStatus: " + status);
 }

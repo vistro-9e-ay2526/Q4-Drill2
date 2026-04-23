@@ -16,29 +16,25 @@
         <script src="main.js"></script>
 </head>
 <body>
-    <form>
-        <div class="row">
-            <!--LEFT SIDE-->
-            <div class="col-sm-8">
-                <h3>Heat Index Checker</h3>
-                <h4>Notice</h4>
-                <div class="dropdown">
-                    <p>Input the temperature (°C) and humidity (%), then click Check to see the heat index and its status.</p>
-                </div>
-                <br>
-                <h4>Degree in °C</h4>
-                <input type="number" placeholder="Enter" id="inputDegree">
-                <br>
-                <h4>Humidity in %</h4>
-                <input type="number" placeholder="Enter" id="inputHumidity">
-                <br>
-                <button onclick="showHeatIndex()">Check</button>
+    <div class="container-fluid">
+        <form>
+            <h1>Heat Index Checker</h1>
+            <br>
+            <h5>⇓ Notice</h5>
+            <div class="dropdown">
+                <p>Input the temperature (°C) and humidity (%), then click Check to see the heat index and its status.</p>
             </div>
-            <!--RIGHT SIDE-->
-            <div class="col-sm-4">
-                <img src="#" alt="logo">
-            </div>
-        </div>
-    </form>
+            <br>
+            <h5>Degree in °C</h5>
+            <input type="number" placeholder="Enter" id="inputDegree">
+            <br>
+            <br>
+            <h5>Humidity in %</h5>
+            <input type="number" placeholder="Enter" id="inputHumidity">
+            <br>
+            <br>
+        </form>
+        <button type="button" onclick="showHeatIndex()">Check</button>
+    </div>
 </body>
 </html>
